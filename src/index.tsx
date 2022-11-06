@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Cadastro from './pages/cadastro/index';
+import Home from './pages/home/index';
+import Login from './pages/login/index';
 import './styles/global.css';
 
 const root = ReactDOM.createRoot(
@@ -8,6 +10,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Cadastro />
+    <Home />
   </React.StrictMode>
 );

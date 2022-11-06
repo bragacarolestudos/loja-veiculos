@@ -1,11 +1,12 @@
-
+// import Logo from '../../assets/logo.svg'
 const handleChange = (event : any) => {}
 
 const handleSubmit = (event : any) => {}
 
-const Cadastro = () => {
+const Login = () => {
 return (
     <div className='container'>
+      {/* <img src='../../assets/logo.svg' alt=""></img> */}
          <div className='form-container'>
             <h2>Entre com a sua conta</h2>
             <form onSubmit={handleSubmit} noValidate >
@@ -26,4 +27,5 @@ return (
 )
 }
 
-export default Cadastro;
+export default Login;
+
